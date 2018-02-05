@@ -23,10 +23,40 @@
 
 .container {
 	background: pink;
+	width: 50%;
+	margin-top: 10rem;
+}
+
+.active {
+	background: white;
 }
 
 
 
+#contactForm {
+	//background: blue;
+}
+
+
+#contactForm > input {
+	display: block;
+	margin: auto;
+	margin-bottom: 1rem;
+	width: 30rem;
+}
+
+#contactForm > textarea {
+	display: block;
+	height: 15rem;
+	margin: auto;
+	margin-bottom: 1rem;
+	width: 30rem;
+}
+
+#contactForm > button {
+	display: block;
+	margin: auto;
+}
 
 .App {
   /* text-align: center; */
