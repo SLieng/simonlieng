@@ -20,7 +20,7 @@ class App extends Component {
 				<a className="nav-link" href="projects">Projects</a>
 			</li>
 			<li className="nav-item">
-				<a className="nav-link" href="about.html">About</a>
+				<a className="nav-link" href="skills">Skills </a>
 			</li>
 			<li className="nav-item">
 				<a className="nav-link" href="http://www.github.com/SLieng">Github</a>
@@ -29,10 +29,10 @@ class App extends Component {
 				<a className="nav-link" href="contact.html">Contact</a>
 			</li>
 		</ul>
-		<form className="form-inline pull-xs-right">
+			{/*<form className="form-inline pull-xs-right">
 			<input className="form-control" type="text" placeholder="Search"/>
 			<button className="btn btn-primary" type="submit">Search</button>
-		</form>
+		</form>*/}
 	</nav>
 
 		<Router>
