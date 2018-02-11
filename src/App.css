@@ -3,8 +3,8 @@
 	margin-top: 2rem;
 	/*margin: 1rem 1rem 1rem 1rem;*/
 	background: rgb(10, 10, 10);
-	width: 80%;
-	border-radius: 10px;
+	width: 60%;
+	border-radius: 5px;
 }
 
 .navbar-brand2 {
@@ -19,7 +19,8 @@
 
 .navbar-nav {
 	background: rgb(50, 50, 50);
-	border-radius: 10px;
+	border-radius: 5px;
+	margin-right: -5px;
 }
 
 .navbar-nav > .active {
@@ -41,12 +42,16 @@
 	color: rgb(0, 255, 0);
 }
 
-.container {
+.nav-link:hover > .navText {
+	color: rgb(255, 255, 255);
+}
+
+.main {
 	background-color: rgb(0, 0, 0);
 	font-family: monospace;
 	/*background: rgb(100, 100, 100);*/
-	width: 70%;
-	margin-top: 10rem;
+	width: 60%;
+	margin-top: 7rem;
 	padding-left: 1rem;
 	padding-right: 1rem;
 	padding-top: 1rem;
@@ -55,17 +60,61 @@
 	border-radius: 25px;
 }
 
-.container > ul {
-	font-size: 14px;
-}
-
 .active {
 	font-weight: bold;
 }
 
+.main > ul {
+	font-size: 14px;
+}
+
+.main > h1 {
+	font-size: 35px;
+	font-family: monospace;
+	text-align: center;
+	font-weight: bold;
+}
+
+.main h2 {
+	font-size: 15px;
+  border-bottom-style: solid;
+	border-bottom-color: rgb(0, 255, 0);
+	border-bottom-width: 2px;
+	/*background-color: rgb(255,255,255);*/
+}
+
+.main p {
+	padding-bottom: 2rem;
+}
+
+.footer {
+	background-color: rgb(0, 0, 0);
+	font-family: monospace;
+	/*background: rgb(100, 100, 100);*/
+	width: 60%;
+	margin-top: 10rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	color: rgb(0, 255, 0);
+	border-radius: 5px;
+	text-align: center;
+}
+
+#contactInfoWrapper {
+	text-align:center;
+	padding: 1rem 1rem 1rem 1rem;
+	font-size: 18px;
+}
+
+#displayEmail {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
 
 #contactForm {
-	//background: blue;
+	/*background: blue;*/
 }
 
 
