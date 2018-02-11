@@ -4,16 +4,22 @@
 	/*margin: 1rem 1rem 1rem 1rem;*/
 	background: rgb(10, 10, 10);
 	width: 80%;
+	border-radius: 10px;
 }
 
-.navbar-brand {
-	background: rgb(50, 50, 50);
-	font-family: Verdana;
+.navbar-brand2 {
+	/*background: rgb(20, 20, 20);*/
+}
+
+#brandText {
+	font-family: monospace;
 	font-weight: bold;
+	color: rgb(0, 255, 0);
 }
 
 .navbar-nav {
 	background: rgb(50, 50, 50);
+	border-radius: 10px;
 }
 
 .navbar-nav > .active {
@@ -24,6 +30,14 @@
 .navbar-nav > li {
 	padding-left: 1rem;
 	padding-right: 1rem;
+}
+
+.navText {
+	color: rgb(150, 150, 150);
+}
+
+.active > .navText {
+	/*background-color: rgb(100, 100, 100);*/
 	color: rgb(0, 255, 0);
 }
 
@@ -31,13 +45,22 @@
 	background-color: rgb(0, 0, 0);
 	font-family: monospace;
 	/*background: rgb(100, 100, 100);*/
-	width: 50%;
+	width: 70%;
 	margin-top: 10rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 10rem;
 	color: rgb(0, 255, 0);
+	border-radius: 25px;
+}
+
+.container > ul {
+	font-size: 14px;
 }
 
 .active {
-	background: rgb(150, 150, 150);
+	font-weight: bold;
 }
 
 
@@ -53,6 +76,7 @@
 	width: 30rem;
 	color: rgb(0, 255, 0);
 	background-color: rgb(200, 200, 200);
+	font-size: 14px;
 }
 
 #contactForm > input::placeholder {
@@ -66,6 +90,7 @@
 	margin-bottom: 1rem;
 	width: 30rem;
 	background-color: rgb(200, 200, 200);
+	font-size: 14px;
 }
 
 #contactForm > button {

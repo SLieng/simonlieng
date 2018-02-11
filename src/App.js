@@ -38,22 +38,22 @@ class NavBar extends React.Component {
 	render() {
 		return(
 		<nav className="navbar navbar-light bg-faded">
-		<NavLink className="navbar-brand" to="#">Simon Lieng</NavLink>
+		<NavLink className="navbar-brand" to="#"><span id="brandText">Simon Lieng</span></NavLink>
 		<ul className="nav navbar-nav">
 			<li className="nav-item">
-				<NavLink className="nav-link" exact to="/" activeClassName='active'>Home</NavLink>
+				<NavLink className="nav-link" exact to="/" activeClassName='active'><span className="navText">Home</span></NavLink>
 			</li>
 			<li className="nav-item">
-				<NavLink className="nav-link" to="/projects" activeClassName='active'>Projects</NavLink>
+				<NavLink className="nav-link" to="/projects" activeClassName='active'><span className="navText">Projects</span></NavLink>
 			</li>
 			<li className="nav-item">
-				<NavLink className="nav-link" to="/skills" activeClassName='active'>Skills </NavLink>
+				<NavLink className="nav-link" to="/skills" activeClassName='active'><span className="navText">Skills</span></NavLink>
 			</li>
 			<li className="nav-item">
-				<NavLink className="nav-link" to="http://www.github.com/SLieng" activeClassName='active'>Github</NavLink>
+				<NavLink className="nav-link" to="http://www.github.com/SLieng" activeClassName='active'><span className="navText">Github</span></NavLink>
 			</li>
 			<li className="nav-item">
-				<NavLink className="nav-link" to="/contact" activeClassName='active'>Contact</NavLink>
+				<NavLink className="nav-link" to="/contact" activeClassName='active'><span className="navText">Contact</span></NavLink>
 			</li>
 		</ul>
 			{/*<form className="form-inline pull-xs-right">
