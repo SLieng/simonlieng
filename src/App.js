@@ -70,11 +70,7 @@ class Home extends React.Component {
 	render() {
 		return (
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
 					<h1>Hello, I'm Simon!</h1>
-				</div>
-			</div>
 		</div>
 		);
 	}
@@ -84,11 +80,7 @@ class Projects extends React.Component {
 	render() {
 		return (
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
 				<h1>Below are some of my personal projects</h1>
-				</div>
-			</div>
 		</div>
 		);
 	}
@@ -98,8 +90,6 @@ class Skills extends React.Component {
 	render() {
 		return (
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
 				<h1>Skills</h1>
 				<ul>
 			<li>
@@ -116,8 +106,6 @@ class Skills extends React.Component {
 			</li>
 			</ul>
 
-				</div>
-			</div>
 		</div>
 		);
 	}
@@ -127,8 +115,6 @@ class Contact extends React.Component {
 	render() {
 		return (
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
 				<form id='contactForm'>
 				<input type='text' placeholder='Name'/>
 				<input type='text' placeholder='Email'/>
@@ -136,8 +122,6 @@ class Contact extends React.Component {
 				<button>Submit</button>
 				</form>
 				
-				</div>
-			</div>
 		</div>
 		);
 	}
