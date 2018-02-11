@@ -21,7 +21,7 @@ class App extends Component {
 		</div>
 
 		{/* Footer */}
-		<div class="container footer">
+		<div className="container footer">
 			<span id="footerText">Copyright &copy; 2018 Simon Lieng</span>
 		</div>
       </div>
@@ -67,6 +67,7 @@ class Home extends React.Component {
 		return (
 		<div className="container main">
 					<h1>Hello, I'm Simon!</h1>
+					<FullSkills/>
 		</div>
 		);
 	}
@@ -98,23 +99,9 @@ class Projects extends React.Component {
 class Skills extends React.Component {
 	render() {
 		return (
-		<div class="container main">
-				<h1>Skills</h1>
-				<ul>
-			<li>
-			Data Analysis. Data Visualisation. Machine Learning. Python Data Stack (Numpy, Pandas, Matplotlib, Scikit-learn, Tensorflow). Web Scraping. MySQL/SQL.
-			</li>
-			<li>
-			HTML, CSS, JavaScript, Node.js, React.js, RESTful API, JEST
-			</li>
-			<li>
-			C/C++
-			</li>
-			<li>
-			Unix/Linux Environment - Vim, Bash, Git, Command Line Tools (grep, sed, ... ), Workflow Optimisation (Dotfiles)
-			</li>
-			</ul>
-
+		<div className="container main">
+			<div className="break"></div>
+			<FullSkills/>
 		</div>
 		);
 	}
@@ -137,6 +124,89 @@ class Contact extends React.Component {
 			*/}
 				
 		</div>
+		);
+	}
+}
+
+class FullSkills extends React.Component {
+	render() {
+		return (
+			<div>
+				<h1>Skills</h1>
+			<div className="skillSection">
+			<h2>Data</h2>
+			<svg>
+			<rect y="20" width="300"></rect>
+			<rect y="70" width="200"></rect>
+			<rect y="120" width="250"></rect>
+			<rect y="170" width="300"></rect>
+			<rect y="220" width="300"></rect>
+			<text x="10" y="35">Data Analysis</text>
+			<text x="10" y="85">Machine Learning</text>
+			<text x="10" y="135">Python Data Stack</text>
+			<text x="10" y="185">Web Scraping</text>
+			<text x="10" y="235">SQL/MySQL</text>
+			<text x="10" y="155">(Pandas, Matplotlib, Scikit-learn, Tensorflow)</text>
+			</svg>
+			</div>
+
+			<div className="skillSection">
+			<h2>Back-End Development</h2>
+			<svg>
+			<rect y="20" width="250"></rect>
+			<rect y="70" width="250"></rect>
+			<rect y="120" width="300"></rect>
+			<rect y="170" width="150"></rect>
+			<text x="10" y="35">Node.js</text>
+			<text x="10" y="85">C/C++</text>
+			<text x="10" y="135">Python</text>
+			<text x="10" y="185">REST Architecture</text>
+			</svg>
+			</div>
+
+			<div className="skillSection">
+			<h2>Front-End Web Development</h2>
+			<svg>
+			<rect y="20" width="300"></rect>
+			<rect y="70" width="250"></rect>
+			<rect y="120" width="300"></rect>
+			<rect y="170" width="100"></rect>
+			<text x="10" y="35">JavaScript</text>
+			<text x="10" y="85">React</text>
+			<text x="10" y="135">HTML5/CSS</text>
+			<text x="10" y="185">JQuery</text>
+			<text x="10" y="105">(including Redux)</text>
+			</svg>
+			</div>
+
+			<div className="skillSection">
+			<h2>Mathematics</h2>
+			<svg>
+			<rect y="20" width="300"></rect>
+			<rect y="70" width="300"></rect>
+			<rect y="120" width="250"></rect>
+			<text x="10" y="35">Statistics</text>
+			<text x="10" y="85">Algorithms</text>
+			<text x="10" y="135">Optimisation</text>
+			</svg>
+
+			</div>
+			<div className="skillSection">
+			<h2>Miscellaneous</h2>
+			<svg>
+			<rect y="20" width="300"></rect>
+			<rect y="70" width="300"></rect>
+			<rect y="120" width="300"></rect>
+			<rect y="170" width="300"></rect>
+			<text x="10" y="35">Linux</text>
+			<text x="10" y="85">Bash/Shell</text>
+			<text x="10" y="135">Command Line</text>
+			<text x="10" y="185">Coding Speed</text>
+			<text x="10" y="105">Scripting</text>
+			{/* vim, workflow optimisation (dotfiles), git, command line tools i.e. grep, sed*/}
+			</svg>
+			</div>
+			</div>
 		);
 	}
 }

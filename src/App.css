@@ -55,20 +55,16 @@
 	padding-left: 1rem;
 	padding-right: 1rem;
 	padding-top: 1rem;
-	padding-bottom: 10rem;
+	padding-bottom: 1rem;
 	color: rgb(0, 255, 0);
-	border-radius: 25px;
+	border-radius: 15px;
 }
 
 .active {
 	font-weight: bold;
 }
 
-.main > ul {
-	font-size: 14px;
-}
-
-.main > h1 {
+.main h1 {
 	font-size: 35px;
 	font-family: monospace;
 	text-align: center;
@@ -85,6 +81,26 @@
 
 .main p {
 	padding-bottom: 2rem;
+}
+
+.main svg {
+	width: 600px;
+	height: 300px;
+}
+
+.main svg rect {
+	x: 150px;
+	height: 20px;
+	fill: rgb(0, 255, 0);
+}
+
+.main svg text {
+	fill: rgb(255, 255, 255);
+}
+
+.main .break {
+	width: 50%;
+	padding-bottom: 5rem;
 }
 
 .footer {
