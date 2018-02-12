@@ -67,6 +67,25 @@ class Home extends React.Component {
 		return (
 		<div className="container main">
 					<h1>Hello, I'm Simon!</h1>
+			<p>
+			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
+			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
+			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
+			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
+			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
+			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
+			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
+			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
+			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
+			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
+			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
+			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
+			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
+			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
+			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
+			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
+			</p>
+			<div className="break"></div>
 					<FullSkills/>
 		</div>
 		);
@@ -100,7 +119,6 @@ class Skills extends React.Component {
 	render() {
 		return (
 		<div className="container main">
-			<div className="break"></div>
 			<FullSkills/>
 		</div>
 		);
