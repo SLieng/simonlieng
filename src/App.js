@@ -68,25 +68,15 @@ class Home extends React.Component {
 		<div className="container main">
 					<h1>Hello, I'm Simon!</h1>
 			<p>
-			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
-			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
-			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
-			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
-			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
-			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
-			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
-			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
-			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
-			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
-			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
-			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
-			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
-			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
-			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
-			asdfjkldfsajkfl Lorem Ipsum Lorem Ipsum
+			I'm a passionate and ambitious software developer currently living in London, UK. 
+			Since graduating from University of Cambridge with a Mathematics Degree, I've been intensely learning and programming to become world class.
+			I have been a tech enthusiast ever since I can remember myself.
+			I possess diverse set of techincal skills, from back-end software development to data science skills and I always keep up with the latest and powerful technologies.
 			</p>
 			<div className="break"></div>
 					<FullSkills/>
+			<div id="contactInfoWrapper"> Contact me at my email address:
+			<div id="displayEmail">simon@simonlieng.com</div> </div>
 		</div>
 		);
 	}
@@ -102,8 +92,8 @@ class Projects extends React.Component {
 				<p>Terminal emulator made in C++. Designed to be minimalistic.</p>
 				</div>
 				<div class="project">
-					<h2> Optimized Sensor </h2>
-					<p> Embedded software made in C, designed with readability and portability in mind.</p>
+					<h2> Sensor with Task Scheduler </h2>
+					<p> Embedded software made in C designed with readability and portability in mind.</p>
 				</div>
 				<div class="project">
 					<h2> Pong with Machine Learning Integration</h2>
@@ -157,7 +147,7 @@ class FullSkills extends React.Component {
 			<rect y="20" width="300"></rect>
 			<rect y="70" width="200"></rect>
 			<rect y="120" width="250"></rect>
-			<rect y="170" width="300"></rect>
+			<rect y="170" width="250"></rect>
 			<rect y="220" width="300"></rect>
 			<text x="10" y="35">Data Analysis</text>
 			<text x="10" y="85">Machine Learning</text>
@@ -171,7 +161,7 @@ class FullSkills extends React.Component {
 			<div className="skillSection">
 			<h2>Back-End Development</h2>
 			<svg>
-			<rect y="20" width="250"></rect>
+			<rect y="20" width="200"></rect>
 			<rect y="70" width="250"></rect>
 			<rect y="120" width="300"></rect>
 			<rect y="170" width="150"></rect>
@@ -200,9 +190,9 @@ class FullSkills extends React.Component {
 			<div className="skillSection">
 			<h2>Mathematics</h2>
 			<svg>
-			<rect y="20" width="300"></rect>
+			<rect y="20" width="250"></rect>
 			<rect y="70" width="300"></rect>
-			<rect y="120" width="250"></rect>
+			<rect y="120" width="200"></rect>
 			<text x="10" y="35">Statistics</text>
 			<text x="10" y="85">Algorithms</text>
 			<text x="10" y="135">Optimisation</text>
@@ -213,12 +203,12 @@ class FullSkills extends React.Component {
 			<h2>Miscellaneous</h2>
 			<svg>
 			<rect y="20" width="300"></rect>
-			<rect y="70" width="300"></rect>
-			<rect y="120" width="300"></rect>
+			<rect y="70" width="200"></rect>
+			<rect y="120" width="200"></rect>
 			<rect y="170" width="300"></rect>
 			<text x="10" y="35">Linux</text>
 			<text x="10" y="85">Bash/Shell</text>
-			<text x="10" y="135">Command Line</text>
+			<text x="10" y="135">Command Line Tools</text>
 			<text x="10" y="185">Coding Speed</text>
 			<text x="10" y="105">Scripting</text>
 			{/* vim, workflow optimisation (dotfiles), git, command line tools i.e. grep, sed*/}
